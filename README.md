@@ -1,7 +1,7 @@
 # Ansible-Q-A
 1)explain about ansible?
-a)*ansible is an automation engine which automates software provisioning,configuration management and application deployment.which is an opensource configuration management tool.
-  *in detail: ansible is an automation engine or software which we can completely automate the software configuration management as well as  what ever the deployment we want to do    we can automate as well as provisioning the software on this machine what and all the softwares we should have and how should have completely using ansible.
+a)* ansible is an automation engine which automates software provisioning,configuration management and application deployment.which is an opensource configuration management         tool.
+ * in detail: ansible is an automation engine or software which we can completely automate the software configuration management as well as  what ever the deployment we want to     do we can automate as well as provisioning the software on this machine what and all the softwares we should have and how should have completely using ansible.
  * ansible can contreol large no of servers and eases the administration and operations tasks.ansible can do simple configuration management and complex archestration.It has all     the features that config tools have plus it's very easy to learn and implement.
 
 
