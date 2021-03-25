@@ -33,3 +33,6 @@ we can define ansible configuration in  different loactions .the locations with 
 ~/.ansible.cfg file present in home directory.
 /etc/ansible/ansible.cfg default ansible.cfg file.
 NOTE:Ansible will only use the configuration setting from the file which is found in this sequence first.it will not look for the settings in the higher sequence files if the setting not present in the file which is choosen for the deployment.ex:for example if we have a congfig file in the home directory but inventory file is not there in the config file  which is in the /home directory while executing playbook. it will not  look for the other configuration file locations. it just throws you an error.
+
+6)what is idempotency in ansible?
+a)Most Ansible modules check whether the desired final state has already been achieved, and exit without performing any actions if that state has been achieved, so that repeating the task does not change the final state. Modules that behave this way are often called ‘idempotent.’
